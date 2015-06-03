@@ -18,7 +18,7 @@ import java.util.Set;
 public class Department implements Serializable {
 
     @Id
-    @Column(name = "idDepartment")
+    @Column(name = "department_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
 
     private Integer id;

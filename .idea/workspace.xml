@@ -1,7 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d14fa765-b6a4-41c4-8ce0-1b66cc72fb18" name="Default" comment="" />
+    <list default="true" id="d14fa765-b6a4-41c4-8ce0-1b66cc72fb18" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/ServletDispatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/Action.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/DepartmentEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/DepartmentEditorValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/DepartmentsCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/DepartmentsDeletor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/DepartmentsList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/EmployeeCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/EmployeeDeletor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/EmployeeEditorValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/EmployeeFormHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/controllers/actions/implementations/EmployeeList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/models/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/models/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/repository/DepartmentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/repository/EmployeeRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/repository/impl/hibernate/HibernateDepartmentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/repository/impl/hibernate/HibernateEmployeeRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/repository/impl/jdbc/JDBCDepartmentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/repository/impl/jdbc/JDBCEmployeeRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/utils/parsers/RequestParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Departments/META-INF/utils/validators/OvalValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/Action.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/Action.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/models/Department.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/models/Department.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/models/Department.class" afterPath="$PROJECT_DIR$/target/classes/models/Department.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentEditor.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentEditor.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentEditorValidator.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentEditorValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentEditorValidator.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentEditorValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/DepartmentRepository.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/DepartmentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/DepartmentRepository.class" afterPath="$PROJECT_DIR$/target/classes/repository/DepartmentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments.war" afterPath="$PROJECT_DIR$/target/Departments.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentsCreator.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentsCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentsCreator.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentsCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentsDeletor.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentsDeletor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentsDeletor.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentsDeletor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentsList.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/DepartmentsList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentsList.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/DepartmentsList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/models/Employee.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/models/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/models/Employee.class" afterPath="$PROJECT_DIR$/target/classes/models/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeCreator.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeCreator.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeDeletor.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeDeletor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeDeletor.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeDeletor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeEditorValidator.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeEditorValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeEditorValidator.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeEditorValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeFormHandler.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeFormHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeFormHandler.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeFormHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeList.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/actions/implementations/EmployeeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeList.class" afterPath="$PROJECT_DIR$/target/classes/controllers/actions/implementations/EmployeeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/EmployeeRepository.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/EmployeeRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/EmployeeRepository.class" afterPath="$PROJECT_DIR$/target/classes/repository/EmployeeRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/hibernate/HibernateDepartmentRepository.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/hibernate/HibernateDepartmentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/impl/hibernate/HibernateDepartmentRepository.class" afterPath="$PROJECT_DIR$/target/classes/repository/impl/hibernate/HibernateDepartmentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/hibernate/HibernateEmployeeRepository.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/hibernate/HibernateEmployeeRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/impl/hibernate/HibernateEmployeeRepository.class" afterPath="$PROJECT_DIR$/target/classes/repository/impl/hibernate/HibernateEmployeeRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/jdbc/JDBCDepartmentRepository.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/jdbc/JDBCDepartmentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/impl/jdbc/JDBCDepartmentRepository.class" afterPath="$PROJECT_DIR$/target/classes/repository/impl/jdbc/JDBCDepartmentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/jdbc/JDBCEmployeeRepository.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/repository/impl/jdbc/JDBCEmployeeRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/impl/jdbc/JDBCEmployeeRepository.class" afterPath="$PROJECT_DIR$/target/classes/repository/impl/jdbc/JDBCEmployeeRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/utils/validators/OvalValidator.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/utils/validators/OvalValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/validators/OvalValidator.class" afterPath="$PROJECT_DIR$/target/classes/utils/validators/OvalValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/utils/parsers/RequestParser.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/utils/parsers/RequestParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/parsers/RequestParser.class" afterPath="$PROJECT_DIR$/target/classes/utils/parsers/RequestParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/ServletDispatcher.class" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/controllers/ServletDispatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/ServletDispatcher.class" afterPath="$PROJECT_DIR$/target/classes/controllers/ServletDispatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Department.java" afterPath="$PROJECT_DIR$/src/main/java/models/Department.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/Departments/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Departments.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,7 +161,7 @@
       <file leaf-file-name="employeeList.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employeeList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="811" max-vertical-offset="1710">
+            <state vertical-scroll-proportion="16.703703" vertical-offset="811" max-vertical-offset="1710">
               <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="23" selection-end-column="58" />
               <folding />
             </state>
@@ -108,11 +188,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="departmentList.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DepartmentsCreator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/actions/implementations/DepartmentsCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="954">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="departmentList.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/departmentList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10273973" vertical-offset="0" max-vertical-offset="1566">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="594" max-vertical-offset="1566">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ServletDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="666">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27181208" vertical-offset="0" max-vertical-offset="1116">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,10 +242,12 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/utils/spring/SpringHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/dao/DAODepartment.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/dao/impl/aophibernate/AopDAODepHibImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/actions/Action.java" />
@@ -161,7 +285,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controllers/actions/implementations/DepartmentEditorValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/actions/implementations/EmployeeDeletor.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/actions/implementations/EmployeeList.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/my.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employeeList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -174,6 +297,8 @@
         <option value="$PROJECT_DIR$/src/main/java/controllers/actions/implementations/EmployeeFormHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/ServletDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Department.java" />
       </list>
     </option>
   </component>
@@ -201,20 +326,6 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Departments Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -281,7 +392,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -524,6 +635,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Departments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Departments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -617,11 +754,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27507836" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.excludes" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Departments+AJAX" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1177,11 +1315,17 @@
       <workItem from="1432297558747" duration="446000" />
       <workItem from="1432568895437" duration="662000" />
       <workItem from="1432645758448" duration="9000" />
+      <workItem from="1432728192995" duration="300000" />
+      <workItem from="1432736038845" duration="452000" />
+      <workItem from="1432885278103" duration="591000" />
+      <workItem from="1432885877767" duration="21000" />
+      <workItem from="1432889167533" duration="6000" />
+      <workItem from="1433321744809" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439546000" />
+    <option name="totallyTimeSpent" value="442714000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1205,40 +1349,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20563847" sideWeight="0.30538923" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19624102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36655948" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47695607" sideWeight="0.79546714" order="4" side_tool="false" content_ui="tabs" x="88" y="437" width="1809" height="342" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23327805" sideWeight="0.27867097" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4630225" sideWeight="0.28137094" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10779436" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32583067" sideWeight="0.4997236" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27529022" sideWeight="0.21564886" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18131565" sideWeight="0.4980916" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.086235486" sideWeight="0.49908257" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27473742" sideWeight="0.78435117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275843" sideWeight="0.78435117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4630225" sideWeight="0.71862906" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.50091743" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4630225" sideWeight="0.71862906" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37942123" sideWeight="0.4997236" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4619507" sideWeight="0.79546714" order="4" side_tool="false" content_ui="tabs" x="88" y="437" width="1809" height="342" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32583067" sideWeight="0.4997236" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1294,6 +1438,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1363,12 +1508,6 @@
           <line>2</line>
           <properties />
           <option name="timeStamp" value="423" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controllers/ServletDispatcher.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="425" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1564,13 +1703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="1116">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/actions/implementations/EmployeeDeletor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07692308" vertical-offset="106" max-vertical-offset="738">
@@ -1635,14 +1767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/Departments_war.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
@@ -1680,13 +1804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/Departments/WEB-INF/jsp/employeeList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9058693" vertical-offset="190" max-vertical-offset="1116">
@@ -1697,16 +1814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employeeList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="811" max-vertical-offset="1710">
+        <state vertical-scroll-proportion="16.703703" vertical-offset="811" max-vertical-offset="1710">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="23" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ServletDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="666">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1749,16 +1858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/actions/implementations/DepartmentsCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28239202" vertical-offset="51" max-vertical-offset="954">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/actions/implementations/DepartmentEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -1767,10 +1866,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/actions/implementations/DepartmentsCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="954">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/departmentList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10273973" vertical-offset="0" max-vertical-offset="1566">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1566">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/855b8d9c-3170-48ca-a178-ccbb04efd44c.schema:test">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>855b8d9c-3170-48ca-a178-ccbb04efd44c.schema:test</OriginalElement>
+          <nodes>
+            <node x="" y="">855b8d9c-3170-48ca-a178-ccbb04efd44c.table:test.Department</node>
+            <node x="" y="">855b8d9c-3170-48ca-a178-ccbb04efd44c.table:test.Employee</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="103.5" y="165.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ServletDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="666">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27181208" vertical-offset="0" max-vertical-offset="1116">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>
