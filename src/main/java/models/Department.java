@@ -7,10 +7,6 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Set;
 
-
-/**
- * Created on 23.03.15.
- */
 @Entity
 @Table(name = "Department")
 
@@ -29,7 +25,7 @@ public class Department implements Serializable {
     @NotEmpty(message = "Title cannot be empty")
     private String title;
 
-    @OneToMany(mappedBy = "department", cascade=CascadeType.ALL)
+    @OneToMany(targetEntity = Employee.class, mappedBy = "department", cascade = CascadeType.ALL)
     private Set<Employee> employees;
 
     public int getId() {

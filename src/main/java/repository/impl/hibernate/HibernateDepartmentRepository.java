@@ -1,27 +1,22 @@
 package repository.impl.hibernate;
 
+import models.Department;
+import org.hibernate.Query;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import repository.DepartmentRepository;
-import models.Department;
-import org.hibernate.Query;
-import org.hibernate.Session;
 
 import java.util.List;
 
 @Repository
 @Transactional(propagation = Propagation.REQUIRED)
 public class HibernateDepartmentRepository implements DepartmentRepository {
-
-    private SessionFactory sessionFactory;
-
     @Autowired
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
+    private SessionFactory sessionFactory;
 
     @Override
     @Transactional(readOnly = true)
@@ -56,7 +51,7 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
     public Department getDepartmentById(int id) throws Exception {
 
             Session  session = sessionFactory.getCurrentSession();
-            String hql = "from Department where idDepartment=:id";
+            String hql = "from Department where department_id=:id";
             Query q = session.createQuery(hql);
             q.setParameter("id", id);
 
@@ -67,11 +62,10 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
     public void editDepartment(String test, int id) throws Exception {
 
             Session session = sessionFactory.getCurrentSession();
-            String hql = "UPDATE Department SET title =:test WHERE idDepartment =:id";
+            String hql = "UPDATE Department SET title =:test WHERE department_id =:id";
             Query q = session.createQuery(hql);
             q.setParameter("test", test);
             q.setParameter("id", id);
             q.executeUpdate();
-
     }
 }

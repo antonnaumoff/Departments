@@ -3,9 +3,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <!--http://www.oneskyapp.com/-->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="<c:url value="/css/my.css"/>" type="text/css">
+    <script type="application/javascript" src="<c:url value="/public/bower_components/jquery/dist/jquery.js"/>"></script>
+    <script type="application/javascript" src="<c:url value="/js/main.js"/>"></script>
+    <script type="application/javascript"></script>
+
 </head>
 <body>
 

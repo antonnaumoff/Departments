@@ -21,7 +21,7 @@ public class DepartmentEditorValidator implements Action {
     @Qualifier("hibernateDepartmentRepository")
     private DepartmentRepository dataService;
 
-    @Override
+
     public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         int id_dep = (Integer.parseInt(request.getParameter("id_dep")));

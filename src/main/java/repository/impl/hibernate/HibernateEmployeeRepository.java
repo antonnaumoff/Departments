@@ -1,14 +1,14 @@
 package repository.impl.hibernate;
 
+import models.Employee;
+import org.hibernate.Query;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import repository.EmployeeRepository;
-import models.Employee;
-import org.hibernate.Query;
-import org.hibernate.Session;
 
 import java.sql.Date;
 import java.util.List;
@@ -17,13 +17,8 @@ import java.util.List;
 @Transactional(propagation = Propagation.REQUIRED)
 public class HibernateEmployeeRepository implements EmployeeRepository {
 
-
-    private SessionFactory sessionFactory;
-
     @Autowired
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
+    private SessionFactory sessionFactory;
 
     @Override
     @Transactional(readOnly = true)
@@ -35,9 +30,7 @@ public class HibernateEmployeeRepository implements EmployeeRepository {
         Query q = session.createQuery(hql);
         q.setParameter("id", id);
         //noinspection unchecked
-        List<Employee> list = (List<Employee>) q.list();
-
-        return list;
+        return (List<Employee>) q.list();
     }
 
     @Override
