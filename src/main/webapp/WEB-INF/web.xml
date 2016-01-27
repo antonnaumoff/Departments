@@ -55,6 +55,9 @@
         <url-pattern>*.js</url-pattern>
         <url-pattern>*.css</url-pattern>
         <url-pattern>*.json</url-pattern>
+        <url-pattern>*.png</url-pattern>
+        <url-pattern>*.ogg</url-pattern>
+
     </servlet-mapping>
 
 </web-app>

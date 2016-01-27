@@ -10,6 +10,8 @@
     "jquery": "~2.1.4"
   },
   "devDependencies": {
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "jquery-ui": "jqueryui#~1.11.4",
+    "gmaps": "~0.4.22"
   }
 }
