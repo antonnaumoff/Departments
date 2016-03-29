@@ -26,5 +26,8 @@
         <module name="Departments" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Departments" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
