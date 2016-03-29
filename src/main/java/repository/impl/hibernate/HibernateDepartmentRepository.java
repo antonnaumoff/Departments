@@ -1,14 +1,14 @@
 package repository.impl.hibernate;
 
+import models.Department;
+import org.hibernate.Query;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import repository.DepartmentRepository;
-import models.Department;
-import org.hibernate.Query;
-import org.hibernate.Session;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
 
     @Override
     @Transactional(readOnly = true)
-    public List<Department> getAll() throws Exception {
+    public List<Department> getAll(){
 
         Session session = sessionFactory.getCurrentSession();
         Query q = session.createQuery("from Department");
@@ -34,7 +34,7 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
     }
 
     @Override
-    public void createDepartment(String title) throws Exception {
+    public void createDepartment(String title){
 
         Department dep = new Department();
         dep.setTitle(title);
@@ -43,7 +43,7 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
     }
 
     @Override
-    public void deleteDepartment(int id) throws Exception {
+    public void deleteDepartment(int id){
 
         Session session = sessionFactory.getCurrentSession();
         Department dep = (Department) session.load(Department.class, id);
@@ -53,7 +53,7 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
 
     @Override
     @Transactional(readOnly = true)
-    public Department getDepartmentById(int id) throws Exception {
+    public Department getDepartmentById(int id){
 
             Session  session = sessionFactory.getCurrentSession();
             String hql = "from Department where idDepartment=:id";
@@ -64,7 +64,7 @@ public class HibernateDepartmentRepository implements DepartmentRepository {
     }
 
     @Override
-    public void editDepartment(String test, int id) throws Exception {
+    public void editDepartment(String test, int id){
 
             Session session = sessionFactory.getCurrentSession();
             String hql = "UPDATE Department SET title =:test WHERE idDepartment =:id";

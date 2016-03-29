@@ -44,7 +44,7 @@ public class EmployeeCreator implements Action {
         messages = OvalValidator.validate(test);
         if (messages.isEmpty()) {
             try {
-                dataService.createEmployee(id_dep, title, firstName, secondName, salary, date);
+                dataService.createEmployee(test);
             } catch (Exception e) {
                 (Logger.getLogger("exceptions")).warn("Some message", e);
                 request.setAttribute("message", "Some problem with database, please, try later");

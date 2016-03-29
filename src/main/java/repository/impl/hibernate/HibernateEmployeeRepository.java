@@ -1,16 +1,15 @@
 package repository.impl.hibernate;
 
+import models.Employee;
+import org.hibernate.Query;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import repository.EmployeeRepository;
-import models.Employee;
-import org.hibernate.Query;
-import org.hibernate.Session;
 
-import java.sql.Date;
 import java.util.List;
 
 @Repository
@@ -27,7 +26,7 @@ public class HibernateEmployeeRepository implements EmployeeRepository {
 
     @Override
     @Transactional(readOnly = true)
-    public List<Employee> getEmloyeeListById(int id) throws Exception {
+    public List<Employee> getEmloyeeListById(int id) {
 
         Session session = sessionFactory.getCurrentSession();
 
@@ -41,7 +40,7 @@ public class HibernateEmployeeRepository implements EmployeeRepository {
     }
 
     @Override
-    public void deleteById(int id) throws Exception {
+    public void deleteById(int id) {
 
         Session session = sessionFactory.getCurrentSession();
         Employee emp = (Employee) session.load(Employee.class, id);
@@ -50,14 +49,7 @@ public class HibernateEmployeeRepository implements EmployeeRepository {
     }
 
     @Override
-    public void createEmployee(int idDep, String title, String firstName, String secondName, int salary, Date date) throws Exception {//TODO create model
-        Employee emp = new Employee();
-        emp.setDep_id(idDep);
-        emp.setJob_title(title);
-        emp.setFirst_name(firstName);
-        emp.setSecond_name(secondName);
-        emp.setSalary(salary);
-        emp.setDate(date);
+    public void createEmployee(Employee emp) {
 
         Session session = sessionFactory.getCurrentSession();
         session.save(emp);
@@ -66,7 +58,7 @@ public class HibernateEmployeeRepository implements EmployeeRepository {
 
     @Override
     @Transactional(readOnly = true)
-    public Employee getEmloyeeById(int id) throws Exception {
+    public Employee getEmloyeeById(int id) {
 
         Session session = sessionFactory.getCurrentSession();
         String hql = "from Employee where id=:id";
@@ -78,25 +70,16 @@ public class HibernateEmployeeRepository implements EmployeeRepository {
     }
 
     @Override
-    public void editEmployee(Integer id, String title, String firstName, String secondName, Integer salary, Date date) throws Exception {
+    public void editEmployee(Employee emp) {
 
         Session session = sessionFactory.getCurrentSession();
-
-        String hql = "UPDATE Employee SET job_title=:title,first_name=:firstName,second_name=:secondName,salary=:salary,date=:date WHERE id=:id";
-        Query q = session.createQuery(hql);
-        q.setParameter("title", title);
-        q.setParameter("firstName", firstName);
-        q.setParameter("secondName", secondName);
-        q.setParameter("salary", salary);
-        q.setParameter("date", date);
-        q.setParameter("id", id);
-        q.executeUpdate();
+        session.update(emp);
 
     }
 
     @Override
     @Transactional(readOnly = true)
-    public Integer getId_dById(Integer id) throws Exception {
+    public Integer getId_dById(Integer id)  {
 
         Session session = sessionFactory.getCurrentSession();
         String hql = "from Employee where id=:id";

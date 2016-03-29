@@ -46,7 +46,7 @@ public class EmployeeEditorValidator implements Action {
         if (messages.isEmpty()) {
 
             try {
-                dataService.editEmployee(id, title, firstName, secondName, salary, date);
+                dataService.editEmployee(test);
                 test.setDep_id(dataService.getId_dById(id));
 
             } catch (Exception e) {
