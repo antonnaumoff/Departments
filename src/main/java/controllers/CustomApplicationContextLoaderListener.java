@@ -8,9 +8,9 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-public class FirstCustomListener implements ServletContextListener {
+public class CustomApplicationContextLoaderListener implements ServletContextListener {
 
-    private Logger logger = Logger.getLogger(FirstCustomListener.class);
+    private Logger logger = Logger.getLogger(CustomApplicationContextLoaderListener.class);
 
     public void contextInitialized(ServletContextEvent sce) {
         ServletContext servletContext = sce.getServletContext();
