@@ -7,6 +7,28 @@
 
     <display-name>Archetype Created Web Application</display-name>
 
+    <filter>
+        <filter-name>first</filter-name>
+        <filter-class>controllers.FirstCustomFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>first</filter-name>
+        <url-pattern>/</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>second</filter-name>
+        <filter-class>controllers.SecondCustomFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>second</filter-name>
+        <url-pattern>/</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>controllers.FirstCustomListener</listener-class>
+    </listener>
+
     <servlet>
         <servlet-name>departments</servlet-name>
         <servlet-class>controllers.ServletDispatcher</servlet-class>

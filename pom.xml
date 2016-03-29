@@ -116,6 +116,21 @@
             <version>1.2.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>7.0.54</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-coyote</artifactId>
+            <version>7.0.59</version>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
     <build>
         <finalName>Departments</finalName>

@@ -3,7 +3,6 @@ package controllers;
 import controllers.actions.Action;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -18,15 +17,9 @@ public class ServletDispatcher extends HttpServlet {
 
     private ApplicationContext contextApp;
 
-    @Override
-    public void init() throws ServletException {
-        contextApp = new ClassPathXmlApplicationContext("applicationContext.xml");
-        super.init();
-    }
-
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        request.getServletContext().getContext("applicationContext.xml");
+        if(contextApp==null)contextApp = (ApplicationContext) request.getServletContext().getAttribute("springContext");
 
         Action action = (Action) contextApp.getBean(request.getServletPath());
 
