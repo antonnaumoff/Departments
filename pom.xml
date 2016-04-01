@@ -137,7 +137,11 @@
             <scope>provided</scope>
         </dependency>
 
-
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.5-beta5</version>
+        </dependency>
 
     </dependencies>
     <build>
