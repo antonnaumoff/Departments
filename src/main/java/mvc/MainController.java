@@ -4,11 +4,16 @@ package mvc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.FileCopyUtils;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 import service.DataService;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.FileInputStream;
 
 @Controller
 public class MainController {
@@ -20,12 +25,54 @@ public class MainController {
     public String index(Model model, HttpServletRequest httpRequest) throws Exception {
 
         model.addAttribute("department", dataService.getDepartmentList());
-        return "departmentList";
+        if (model.containsAttribute("department")) {
+            throw new Exception("my custom Exception");
+        } else {
+            return "departmentList";
+        }
     }
 
-    @RequestMapping(value = "/export", method = RequestMethod.GET)
+    @RequestMapping(value = "/xlsExport", method = RequestMethod.GET)
     public String getExcel(Model model) {
         model.addAttribute("list", dataService.getDepartmentList());
         return "testListExcel";
     }
+
+    @RequestMapping(value = "/pdfExport", method = RequestMethod.GET)
+    public String getPdf(Model model) {
+        model.addAttribute("list", dataService.getDepartmentList());
+        return "testListPdf";
+    }
+
+    @RequestMapping(value = "/pdfAsStream", method = RequestMethod.GET)
+    public void getPdfAsStream(HttpServletResponse response) throws Exception {
+
+        byte[] data = FileCopyUtils.copyToByteArray(new FileInputStream("/home/antonnaumoff/Documents/departments.pdf"));
+
+        response.setContentType("application/pdf");
+        response.setHeader("Content-Disposition", "attachment; filename=departments.pdf");
+        response.setContentLength(data.length);
+        response.getOutputStream().write(data);
+        response.getOutputStream().flush();
+    }
+
+    @RequestMapping(value = "/xlsAsStream", method = RequestMethod.GET)
+    public void getXlsAsStream(HttpServletResponse response) throws Exception {
+
+        byte[] data = FileCopyUtils.copyToByteArray(new FileInputStream("/home/antonnaumoff/Documents/export"));
+
+        response.setContentType("application/x-msexcel");
+        response.setHeader("Content-Disposition", "attachment; filename=departments.xls");
+        response.setContentLength(data.length);
+        response.getOutputStream().write(data);
+        response.getOutputStream().flush();
+    }
+
+    @ExceptionHandler(value = Exception.class)
+    public ModelAndView errorHandler(Exception ex) {
+        ModelAndView modelAndView = new ModelAndView("error");
+        modelAndView.addObject("message", ex.getMessage());
+        return modelAndView;
+    }
+
 }
