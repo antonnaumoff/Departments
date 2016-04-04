@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.util.UriComponentsBuilder;
 import service.DataService;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.FileInputStream;
+import java.security.Principal;
 
 @Controller
 public class MainController {
@@ -22,14 +23,10 @@ public class MainController {
     private DataService dataService;
 
     @RequestMapping("/")
-    public String index(Model model, HttpServletRequest httpRequest) throws Exception {
+    public String index(Model model, Principal principal, UriComponentsBuilder uriComponentsBuilder) throws Exception {
 
         model.addAttribute("department", dataService.getDepartmentList());
-        if (model.containsAttribute("department")) {
-            throw new Exception("my custom Exception");
-        } else {
-            return "departmentList";
-        }
+        return "departmentList";
     }
 
     @RequestMapping(value = "/xlsExport", method = RequestMethod.GET)
