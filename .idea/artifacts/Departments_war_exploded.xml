@@ -9,7 +9,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="library" level="project" name="Maven: net.sf.oval:oval:1.84" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.0.Final" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />

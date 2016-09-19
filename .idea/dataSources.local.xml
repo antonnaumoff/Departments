@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - departments@localhost [2]" uuid="d1522d5d-6184-4dff-be09-db0d08520beb">
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <schema-pattern>departments.*</schema-pattern>
-      <default-schemas>departments.*</default-schemas>
-    </data-source>
-    <data-source name="HSQLDB (Local) -" uuid="43a218da-d161-4196-a5f5-6b77272a11e4">
-      <secret-storage>master_key</secret-storage>
-      <user-name>sa</user-name>
-    </data-source>
+    <data-source name="MySQL - departments@localhost [2]" uuid="d1522d5d-6184-4dff-be09-db0d08520beb" />
+    <data-source name="HSQLDB (Local) -" uuid="43a218da-d161-4196-a5f5-6b77272a11e4" />
   </component>
 </project>
