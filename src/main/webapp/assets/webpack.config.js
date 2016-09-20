@@ -1,6 +1,8 @@
 const webpack = require("webpack");
 const path = require('path');
 
+const DEV = process.env.NODE_ENV !== 'production';
+
 module.exports = {
     entry: {
         app: ["./src/main.js"]
@@ -9,13 +11,22 @@ module.exports = {
         modulesDirectories: [
             "node_modules"
         ],
-        alias: {
-            '/src': './src'
-        },
         extensions: ['', '.json', '.js']
     },
     resolveLoader: {
         modulesDirectories: ['node_modules']
+    },
+    plugins: [
+      new webpack.EnvironmentPlugin('NODE_ENV')
+    ],
+    node: {
+        fs: "empty"
+    },
+    module: {
+      loaders: [{
+          test: /\.js$/,
+          loader: "babel"
+      }]
     },
     output: {
         path: path.resolve(__dirname, "build"),
@@ -23,5 +34,6 @@ module.exports = {
     },
     devServer: {
         contentBase: './build'
-    }
+    },
+    devtool: "source-map"
 }

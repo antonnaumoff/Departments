@@ -1,5 +1,12 @@
-// require ('ext-core.js');
+// require ('node-extjs4');
 
+console.log(process.env.NODE_ENV);
+
+// Ext.Loader.setConfig({enabled:true});
+//
+// Ext.require([
+//     'Ext.panel.Panel'
+// ]);
 
 Ext.create('Ext.panel.Panel', {
     renderTo: Ext.getBody(),
